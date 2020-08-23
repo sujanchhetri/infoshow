@@ -16,5 +16,8 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "minimist": "^1.2.5"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/"
   }
 }
