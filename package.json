@@ -2,13 +2,13 @@
   "name": "infoshow",
   "version": "1.0.0",
   "description": "a cli tool with node",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "bin": {
-    "shows": "./server.js"
+    "shows": "./index.js"
   },
   "keywords": [],
   "author": "sujan",
