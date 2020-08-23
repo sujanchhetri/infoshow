@@ -3,7 +3,7 @@
 const argv = require('minimist')(process.argv.slice(2));
 const os = require('os');
 const chalk = require('chalk');
-const pkg = require('package.json');
+const pkg = require('./package.json');
 
 const u = argv.user || argv.u;
 const o = argv.os || argv.o;
@@ -12,7 +12,7 @@ const V = argv.version || argv.V;
 const h = argv.help || argv.h;
 
 const usage = `
-    Usage: show [(-uon | V | h)]
+    Usage: shows [(-uon | V | h)]
 
     -u, --user          User details  
     -o, --os            OS details

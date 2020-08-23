@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "bin": {
-    "show": "server.js"
+    "shows": "./server.js"
   },
   "keywords": [],
   "author": "sujan",
@@ -17,11 +17,11 @@
     "chalk": "^4.1.0",
     "minimist": "^1.2.5"
   },
-"repository": {
-  "type": "git",
-  "url": "https://github.com/sujanchhetri/infoshow.git"
-},
-  "publishConfig": { 
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sujanchhetri/infoshow.git"
+  },
+  "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
 }
