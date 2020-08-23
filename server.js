@@ -3,7 +3,7 @@
 const argv = require('minimist')(process.argv.slice(2));
 const os = require('os');
 const chalk = require('chalk');
-const pkg = require('./package.json');
+const pkg = require('package.json');
 
 const u = argv.user || argv.u;
 const o = argv.os || argv.o;
